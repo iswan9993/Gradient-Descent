@@ -5,3 +5,23 @@
 <p align="justify" style="text-indent:1.27cm">Untuk memahami cara kerja Gradient Descent, kita dapat menggunakan analogi seseorang yang sedang menuruni gunung. Bayangkan kita berada di atas gunung yang diselimuti kabut tebal sehingga tidak dapat melihat seluruh permukaan gunung maupun lokasi lembah yang menjadi tujuan. Kita hanya dapat merasakan kemiringan tanah di sekitar tempat kita berdiri untuk menentukan arah pergerakan berikutnya.</p>  
 
 <p align="justify" style="text-indent:1.27cm">Jika permukaan tanah menurun ke arah kiri, kita dapat bergerak ke kiri. Setelah berpindah ke posisi baru, kita kembali mengamati kemiringan tanah untuk menentukan langkah selanjutnya. Proses tersebut dilakukan berulang kali hingga kita mendekati titik terendah. Ketika permukaan semakin landai, langkah yang diambil juga perlu diperhatikan agar kita tidak melewati titik minimum yang sedang dicari.</p>  
+
+<p align="justify" style="text-indent:1.27cm">Analogi tersebut menggambarkan prinsip dasar Gradient Descent, yaitu menggunakan informasi kemiringan pada posisi saat ini untuk menentukan arah perubahan berikutnya. Dalam matematika, kemiringan tersebut dinyatakan sebagai gradien f(x)=x<sup>2</sup>+3 </p>  
+
+$m=\frac{\Delta y}{\Delta x} =\frac{y_2 - y_1}{x_2 - x_1}$
+
+ket:
+<table border="0">
+  <tr>
+    <td>m  </td>
+    <td>Gradient</td>
+  </tr>
+  <tr>
+    <td>$\Delta y$</td>
+    <td>Selisih perubahan tinggi vertikal </td>
+  </tr>
+  <tr>
+    <td>$\Delta x$</td>
+    <td>Selisih perubahan tinggi Horizontal </td>
+  </tr>
+</table>
