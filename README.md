@@ -25,3 +25,6 @@ $m=\frac{\Delta y}{\Delta x} =\frac{y_2 - y_1}{x_2 - x_1}$
   </tr>
 </table>
 <p>Titik awal posisi kita berada pada koordinat horizontal f(x), sehingga ketinggian gunung di titik ini adalah y<sub>1</sub> = f(x). Titik kedua atau titik bantu yang kita gunakan di depan posisi kita secara horizontal sejauh h. Maka, koordinat horizontal barunya menjadi x<sub>2</sub> = x+h, dan ketinggian bukit di depan kita otomatis menjadi y<sub>2</sub> = f(x+h). Sehingga jika kita substitusikan notasi fungsi ke dalam rumus gradient akan menjadi, </p>
+$\frac{\Delta y}{\Delta x} =\frac{f(x+h) - f(x)}{(x +h) - x} =\frac{f(x+h) - f(x)}{h}$
+
+<p>Persamaan di atas baru bisa menghitung kemiringan rata-rata wilayah antara dua titik terpisah. Masalahnya, seperti yang tertulis pada analogi, "permukaan gunung itu melengkung dan kecuramannya berubah-ubah". Jika jarak langkah bantu h kita terlalu lebar, tebakan kemiringan kita akan meleset dan tidak mencerminkan kondisi tanah tepat di bawah kaki kita saat ini. Agar kita mendapatkan informasi kemiringan sesaat yang akurat di satu titik tersebut, jarak langkah horizontal h harus diciutkan sekecil mungkin hingga hampir menyentuh angka nol. Di sinilah konsep Limit dimasukkan, sehingga melahirkan rumus induk turunan prinsip pertama.</p>
