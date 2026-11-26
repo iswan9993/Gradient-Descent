@@ -10,8 +10,7 @@
 
 $m=\frac{\Delta y}{\Delta x} =\frac{y_2 - y_1}{x_2 - x_1}$
 
-ket:
-<table border="0">
+<table border="0" style="border: none;">
   <tr>
     <td>m  </td>
     <td>Gradient</td>
