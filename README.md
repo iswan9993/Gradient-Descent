@@ -29,3 +29,9 @@ $m=\frac{\Delta y}{\Delta x} =\frac{y_2 - y_1}{x_2 - x_1}$
 $\frac{\Delta y}{\Delta x} =\frac{f(x+h) - f(x)}{(x +h) - x} = \frac{f(x+h) - f(x)}{h}$
 
 <p>Persamaan di atas baru bisa menghitung kemiringan rata-rata wilayah antara dua titik terpisah. Masalahnya, seperti yang tertulis pada analogi, "permukaan gunung itu melengkung dan kecuramannya berubah-ubah". Jika jarak langkah bantu h kita terlalu lebar, tebakan kemiringan kita akan meleset dan tidak mencerminkan kondisi tanah tepat di bawah kaki kita saat ini. Agar kita mendapatkan informasi kemiringan sesaat yang akurat di satu titik tersebut, jarak langkah horizontal h harus diciutkan sekecil mungkin hingga hampir menyentuh angka nol. Di sinilah konsep Limit dimasukkan, sehingga melahirkan rumus induk turunan prinsip pertama.</p>
+
+$$
+f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}
+$$
+
+pada saat $x_0 = 1, maka $f'(x) = \lim_{h \to 0} \frac{7-4}{1} =3$
