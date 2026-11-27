@@ -24,11 +24,11 @@ $m=\frac{\Delta y}{\Delta x} =\frac{y_2 - y_1}{x_2 - x_1}$
     <td>Selisih perubahan tinggi Horizontal </td>
   </tr>
 </table>
-<p>Titik awal posisi kita berada pada koordinat horizontal f(x), sehingga ketinggian gunung di titik ini adalah y<sub>1</sub> = f(x). Titik kedua atau titik bantu yang kita gunakan di depan posisi kita secara horizontal sejauh h. Maka, koordinat horizontal barunya menjadi x<sub>2</sub> = x+h, dan ketinggian bukit di depan kita otomatis menjadi y<sub>2</sub> = f(x+h). Sehingga jika kita substitusikan notasi fungsi ke dalam rumus gradient akan menjadi, </p>
+<p align="justify">Titik awal posisi kita berada pada koordinat horizontal f(x), sehingga ketinggian gunung di titik ini adalah y<sub>1</sub> = f(x). Titik kedua atau titik bantu yang kita gunakan di depan posisi kita secara horizontal sejauh h. Maka, koordinat horizontal barunya menjadi x<sub>2</sub> = x+h, dan ketinggian bukit di depan kita otomatis menjadi y<sub>2</sub> = f(x+h). Sehingga jika kita substitusikan notasi fungsi ke dalam rumus gradient akan menjadi, </p>
 
 $\frac{\Delta y}{\Delta x} =\frac{f(x+h) - f(x)}{(x +h) - x} = \frac{f(x+h) - f(x)}{h}$
 
-<p>Persamaan di atas baru bisa menghitung kemiringan rata-rata wilayah antara dua titik terpisah. Masalahnya, seperti yang tertulis pada analogi, "permukaan gunung itu melengkung dan kecuramannya berubah-ubah". Jika jarak langkah bantu h kita terlalu lebar, tebakan kemiringan kita akan meleset dan tidak mencerminkan kondisi tanah tepat di bawah kaki kita saat ini. Agar kita mendapatkan informasi kemiringan sesaat yang akurat di satu titik tersebut, jarak langkah horizontal h harus diciutkan sekecil mungkin hingga hampir menyentuh angka nol. Di sinilah konsep Limit dimasukkan, sehingga melahirkan rumus induk turunan prinsip pertama.</p>
+<p align="justify">Persamaan di atas baru bisa menghitung kemiringan rata-rata wilayah antara dua titik terpisah. Masalahnya, seperti yang tertulis pada analogi, "permukaan gunung itu melengkung dan kecuramannya berubah-ubah". Jika jarak langkah bantu h kita terlalu lebar, tebakan kemiringan kita akan meleset dan tidak mencerminkan kondisi tanah tepat di bawah kaki kita saat ini. Agar kita mendapatkan informasi kemiringan sesaat yang akurat di satu titik tersebut, jarak langkah horizontal h harus diciutkan sekecil mungkin hingga hampir menyentuh angka nol. Di sinilah konsep Limit dimasukkan, sehingga melahirkan rumus induk turunan prinsip pertama.</p>
 
 $$
 f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}
@@ -38,7 +38,7 @@ pada saat $x_0 = 1$, maka $f'(x) = \lim_{h \to 0} \frac{7-4}{1} =3$
 
 <img src="Image/diagram.png">
 
-<p>Gradien positif menunjukkan bahwa jika berjalan ke arah kanan maka nilai x akan membesar yang artinya jalannya menanjak. Sebaliknya jika ke arah kiri nilai x akan mengecil yang menandakan jalannya menurun. Namun terdapat masalah pada hasil gradient kita karena h harus mendekati 0 sedangkan nilai yang kita gunakan terlalu besar sehingga kita tidak tahu pasti berapa nilai h idealnya, untuk itu kita sederhanakan lagi rumusnya menggunakan aturan turunan fungsi pada x^2+3.</p>
+<p align="justify">Gradien positif menunjukkan bahwa jika berjalan ke arah kanan maka nilai x akan membesar yang artinya jalannya menanjak. Sebaliknya jika ke arah kiri nilai x akan mengecil yang menandakan jalannya menurun. Namun terdapat masalah pada hasil gradient kita karena h harus mendekati 0 sedangkan nilai yang kita gunakan terlalu besar sehingga kita tidak tahu pasti berapa nilai h idealnya, untuk itu kita sederhanakan lagi rumusnya menggunakan aturan turunan fungsi pada x^2+3.</p>
 
 $\frac{f(x+h) - f(x)}{h} = \frac{((x+h)^2 + 3) - (x^2 + 3)}{h} = \frac{(x^2 + 2xh h^2 +3) - (x^2 + 3)}{h} = \frac{2xh + h^2}{h} =\frac{h(2x + h)}{h} = 2x + 0 = 2x$
 
