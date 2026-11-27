@@ -35,3 +35,11 @@ f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}
 $$
 
 pada saat $x_0 = 1, maka $f'(x) = \lim_{h \to 0} \frac{7-4}{1} =3$
+
+<img src="Image/diagram.png">
+
+<p>Gradien positif menunjukkan bahwa jika berjalan ke arah kanan maka nilai x akan membesar yang artinya jalannya menanjak. Sebaliknya jika ke arah kiri nilai x akan mengecil yang menandakan jalannya menurun. Namun terdapat masalah pada hasil gradient kita karena h harus mendekati 0 sedangkan nilai yang kita gunakan terlalu besar sehingga kita tidak tahu pasti berapa nilai h idealnya, untuk itu kita sederhanakan lagi rumusnya menggunakan aturan turunan fungsi pada x^2+3.</p>
+
+$\frac{f(x+h) - f(x)}{h} = \frac{((x+h)^2 + 3) - (x^2 + 3)}{h} = \frac{(x^2 + 2xh h^2 +3) - (x^2 + 3)}{h} = \frac{2xh + h^2}{h} =\frac{h(2x + h)}{h} = 2x + 0 = 2x$
+
+<p>Jika kita masukkan nilai x=1 menggunakan fungsi turunan 2x maka gradiennya adalah 2</p>
