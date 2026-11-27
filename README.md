@@ -34,7 +34,7 @@ $$
 f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}
 $$
 
-pada saat $x_0 = 1, maka $f'(x) = \lim_{h \to 0} \frac{7-4}{1} =3$
+pada saat $x_0 = 1$, maka $f'(x) = \lim_{h \to 0} \frac{7-4}{1} =3$
 
 <img src="Image/diagram.png">
 
